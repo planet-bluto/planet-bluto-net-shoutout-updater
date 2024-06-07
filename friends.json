@@ -1,0 +1,256 @@
+[
+    {
+        "icon": null,
+        "id": "",
+        "name": "Maidmage",
+        "desc": "",
+        "discordIds": [
+            "194955469897334784"
+        ],
+        "musicIds": [],
+        "fields": [
+            "Visuals",
+            "Game Dev",
+            "Streamer"
+        ],
+        "twitchId": "163206578",
+        "links": {},
+        "style": {
+            "animated_icon": false,
+            "border_type": "Straight",
+            "top_border_color": "",
+            "bottom_border_color": "",
+            "name_color": ""
+        }
+    },
+    {
+        "icon": null,
+        "id": "",
+        "name": "Grynmoor",
+        "desc": "",
+        "discordIds": [
+            "1052818743006330901"
+        ],
+        "musicIds": [],
+        "fields": [
+            "Visuals",
+            "Game Dev",
+            "Streamer"
+        ],
+        "twitchId": "535380036",
+        "links": {},
+        "style": {
+            "animated_icon": false,
+            "border_type": "Straight",
+            "top_border_color": "",
+            "bottom_border_color": "",
+            "name_color": ""
+        }
+    },
+    {
+        "icon": "https://prod-files-secure.s3.us-west-2.amazonaws.com/2002dc7a-2cd5-4b3f-8709-2c7d25e2849d/57a6e300-0a3c-4e2c-9076-aa66b1d3fd57/chubbs_closed.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240606T153035Z&X-Amz-Expires=3600&X-Amz-Signature=53db3dc6b8e8a6c95ff4713834c350e47c25163ca8c138506bba1c05a7eb8978&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "id": "",
+        "name": "Chubbs",
+        "desc": "",
+        "discordIds": [
+            "292487528177598464"
+        ],
+        "musicIds": [],
+        "fields": [
+            "Visuals"
+        ],
+        "twitchId": "",
+        "links": {},
+        "style": {
+            "animated_icon": false,
+            "border_type": "Straight",
+            "top_border_color": "",
+            "bottom_border_color": "",
+            "name_color": ""
+        }
+    },
+    {
+        "icon": "https://prod-files-secure.s3.us-west-2.amazonaws.com/2002dc7a-2cd5-4b3f-8709-2c7d25e2849d/c33ec170-22a7-4746-8378-13caeb1f21ec/orko_closed.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240606T153035Z&X-Amz-Expires=3600&X-Amz-Signature=d17af7da5676884863141cf3a9cb89564d9a014ab3c8c4a0a7253000b5304010&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "id": "",
+        "name": "MEAT",
+        "desc": "",
+        "discordIds": [
+            "279777552858349579"
+        ],
+        "musicIds": [],
+        "fields": [
+            "Visuals",
+            "Game Dev",
+            "Streamer"
+        ],
+        "twitchId": "193868107",
+        "links": {},
+        "style": {
+            "animated_icon": false,
+            "border_type": "Straight",
+            "top_border_color": "",
+            "bottom_border_color": "",
+            "name_color": ""
+        }
+    },
+    {
+        "icon": null,
+        "id": "",
+        "name": "iDoge",
+        "desc": "",
+        "discordIds": [
+            "292415267508584448"
+        ],
+        "musicIds": [],
+        "fields": [
+            "Music"
+        ],
+        "twitchId": "",
+        "links": {},
+        "style": {
+            "animated_icon": false,
+            "border_type": "Straight",
+            "top_border_color": "",
+            "bottom_border_color": "",
+            "name_color": ""
+        }
+    },
+    {
+        "icon": "https://prod-files-secure.s3.us-west-2.amazonaws.com/2002dc7a-2cd5-4b3f-8709-2c7d25e2849d/7f600d70-93be-4378-9a1b-71da004cb460/subi_closed.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240606T153035Z&X-Amz-Expires=3600&X-Amz-Signature=541086aef1c15ab778b60da62249c44648b08ba40d9d19a9ee29d248232e0fb3&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "id": "",
+        "name": "SubiCat",
+        "desc": "",
+        "discordIds": [
+            "412836292163010572"
+        ],
+        "musicIds": [],
+        "fields": [
+            "Visuals",
+            "Music"
+        ],
+        "twitchId": "",
+        "links": {},
+        "style": {
+            "animated_icon": false,
+            "border_type": "Straight",
+            "top_border_color": "",
+            "bottom_border_color": "",
+            "name_color": ""
+        }
+    },
+    {
+        "icon": "https://prod-files-secure.s3.us-west-2.amazonaws.com/2002dc7a-2cd5-4b3f-8709-2c7d25e2849d/464179dc-3a7c-4a23-a2eb-2cfc5e437a2c/debi_closed.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240606T153035Z&X-Amz-Expires=3600&X-Amz-Signature=740825ffd8b81d39307cb13b904f77747c7d6d9f021c4f37e795fd257d97fd64&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "id": "",
+        "name": "Devious",
+        "desc": "",
+        "discordIds": [
+            "148471246680621057"
+        ],
+        "musicIds": [],
+        "fields": [
+            "Music"
+        ],
+        "twitchId": "",
+        "links": {},
+        "style": {
+            "animated_icon": false,
+            "border_type": "Straight",
+            "top_border_color": "",
+            "bottom_border_color": "",
+            "name_color": ""
+        }
+    },
+    {
+        "icon": "https://prod-files-secure.s3.us-west-2.amazonaws.com/2002dc7a-2cd5-4b3f-8709-2c7d25e2849d/bc3fce62-2cef-4128-a1cd-679bbaea18a2/ans_closed.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240606T153035Z&X-Amz-Expires=3600&X-Amz-Signature=67c431ab64bbf8e09387557dd8d4dc7f6f8e5496bb7670a22766b6e13fc43386&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "id": "",
+        "name": "Answearing Machine",
+        "desc": "",
+        "discordIds": [
+            "150398769651777538"
+        ],
+        "musicIds": [],
+        "fields": [
+            "Music"
+        ],
+        "twitchId": "",
+        "links": {},
+        "style": {
+            "animated_icon": false,
+            "border_type": "Straight",
+            "top_border_color": "",
+            "bottom_border_color": "",
+            "name_color": ""
+        }
+    },
+    {
+        "icon": "https://prod-files-secure.s3.us-west-2.amazonaws.com/2002dc7a-2cd5-4b3f-8709-2c7d25e2849d/94cf95a2-74ea-4938-8962-c4a75032206c/salty_closed.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240606T153035Z&X-Amz-Expires=3600&X-Amz-Signature=7e22502be1492d70bff64d6c9d2e601573840f5898a627addec58e2829d9a5e5&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "id": "",
+        "name": "Alwaysalty",
+        "desc": "",
+        "discordIds": [
+            "497844474043432961"
+        ],
+        "musicIds": [],
+        "fields": [
+            "Music"
+        ],
+        "twitchId": "",
+        "links": {},
+        "style": {
+            "animated_icon": false,
+            "border_type": "Straight",
+            "top_border_color": "",
+            "bottom_border_color": "",
+            "name_color": ""
+        }
+    },
+    {
+        "icon": "https://prod-files-secure.s3.us-west-2.amazonaws.com/2002dc7a-2cd5-4b3f-8709-2c7d25e2849d/0087ff8e-af57-4db3-86fb-6d17b7ffff5c/karma_closed.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240606T153035Z&X-Amz-Expires=3600&X-Amz-Signature=9933292e823053a51135d00ac967413d9fac570143b620ff32ea0f819394524d&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "id": "",
+        "name": "Karma",
+        "desc": "",
+        "discordIds": [
+            "383851442341019658"
+        ],
+        "musicIds": [],
+        "fields": [
+            "Music"
+        ],
+        "twitchId": "",
+        "links": {},
+        "style": {
+            "animated_icon": false,
+            "border_type": "Straight",
+            "top_border_color": "",
+            "bottom_border_color": "",
+            "name_color": ""
+        }
+    },
+    {
+        "icon": "https://prod-files-secure.s3.us-west-2.amazonaws.com/2002dc7a-2cd5-4b3f-8709-2c7d25e2849d/e05a3de1-57f7-42b3-8df4-b0a52751c48a/log_closed.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240606T153035Z&X-Amz-Expires=3600&X-Amz-Signature=9e24e261ebcf212ddc4adcc3de6c106f5b7d9fcb74268fa86c3e3f337c17179e&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "id": "lognes",
+        "name": "Lognes",
+        "desc": "Lognes is an artist who creates hard chiptune rock music in beepbox and various types of other visual arts. He is also one of the developers of ProjectHTTP who does visuals, sounds, and game feel!",
+        "discordIds": [
+            "141323186259230721"
+        ],
+        "musicIds": [],
+        "fields": [
+            "Visuals",
+            "Music"
+        ],
+        "twitchId": "437835675",
+        "links": {
+            "SITE": "https://lognes.neocities.org/",
+            "TWT": "https://x.com/Lognes_",
+            "SC": "https://soundcloud.com/lognes"
+        },
+        "style": {
+            "animated_icon": false,
+            "border_type": "Straight",
+            "top_border_color": "#ea1d23",
+            "bottom_border_color": "#0a89ff",
+            "name_color": "#ffffff"
+        }
+    }
+]

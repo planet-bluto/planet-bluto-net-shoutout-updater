@@ -1,0 +1,158 @@
+@font-face {
+ font-family: Rubik Mono One;
+ src: url(assets/fonts/RubikMonoOne-Regular.ttf);
+}
+
+body {
+	background: #12171d;
+	margin: 0px;
+	width: 100vw;
+	height: 100vh;
+}
+
+#artist {
+	margin: auto;
+	display: block;
+	--size: 25em;
+	width: var(--size);
+	height: var(--size);
+	float: left;
+	position: absolute;
+	left: calc(50vw - (var(--size) / 2));
+	top: calc(50vh - (var(--size) / 2));
+	pointer-events: none;
+	z-index: 100;
+}
+
+#main {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}
+
+#notif {
+	color: white;
+	font-family: Rubik Mono One;
+	font-size: 20px;
+	color: #0A89FF;
+	float: left;
+	position: absolute;
+	z-index: 100;
+}
+
+#shill {
+	color: #ffffff7c;
+	font-family: sans-serif;
+}
+
+a {
+	color: #024aca;
+	margin-right: 20px;
+}
+
+/*#fuck-you-elon-popup {
+	opacity: 0%;
+	transition: opacity 250ms;
+}*/
+
+#fuck-you-elon-popup[opened=true] {
+	opacity: 1;
+}
+
+#fuck-you-elon-popup[opened=false] {
+	pointer-events: none;
+	opacity: 0;
+}
+
+#fuck-you-elon-backdrop {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0);
+	opacity: 0.8;
+	z-index: 999;
+}
+
+#fuck-you-elon-notice-container {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	top: calc(50% - (850px / 2));
+}
+
+#fuck-you-elon-notice {
+	z-index: 1001;
+	/*position: absolute;*/
+	font-family: Rubik Mono One;
+	font-size: 64px;
+	color: #FFE737;
+	top: 10%;
+	left: 50%;
+	text-align: center;
+}
+
+#fuck-you-elon {
+	position: absolute;
+	border-radius: 42px;
+	border: 8px solid #024ACA;
+	background: rgba(18, 23, 29, 0.95);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	z-index: 1000;
+	width: calc(900px - 30px);
+	height: calc(550px - 30px);
+	padding: 15px;
+	top: calc(50% - (550px / 2));
+	left: calc(50% - (900px / 2));
+	color: #024aca;
+	font-family: Rubik Mono One;
+	font-size: 24px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+	justify-content: space-between;
+}
+
+#fuck-you-elon-buttons {
+	display: flex;
+	justify-content: space-evenly;
+	/*margin-top: 10%;*/
+	width: 100%;
+}
+
+.fuck-you-elon-button {
+	width: 128px;
+	height: 128px;
+	--base: #024aca;
+	--base-2: #0A89FF;
+	transition-property: --base --base-2;
+	transition-duration: 100ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fuck-you-elon-button > svg {
+	width: 120px;
+	height: 120px;
+	transition-property: width height;
+	transition-duration: 150ms;
+}
+
+.fuck-you-elon-button:hover {
+	--base: #0A89FF;
+	--base-2: #98CDFF;
+}
+
+.fuck-you-elon-button:hover > svg {
+	width: 148px;
+	height: 148px;
+}
+
+#fuck-you-elon-twitter {
+	/*position: absolute;*/
+	/*bottom: 10px;*/
+	color: #F68F37;
+	text-decoration: underline;
+}
