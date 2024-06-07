@@ -17,7 +17,7 @@ async function uploadFiles(sitePath, filePaths) {
   })
 
   var headers = Object.assign({
-    "Authorization": "259bafebcf7e84fc645b4e267966ce80cbf455c0ba5de4fa3f50420c51156075"
+    "Authorization": process.env["NEKOWEB_KEY"]
   }, form.getHeaders())
 
   var res = await fetch(`https://nekoweb.org/api/files/upload`, {
