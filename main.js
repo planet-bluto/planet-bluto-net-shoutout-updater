@@ -41,7 +41,8 @@ function format(str) {
 
 module.exports = (artists) => {
   artists.forEach(async artist => {
-    var artistId = (artist.id || (artist.name).toLowerCase())
+    var artistId = artist.id
+    if (artistId == null) { return }
 
     // Buttons //
     var buttonJStext = []
@@ -64,6 +65,7 @@ module.exports = (artists) => {
 
     // index.html //
     var templateHTML = await fsProm.readFile("site_template.html", "utf-8")
+    templateHTML = templateHTML.replaceAll("[pb_artist_id]", artistId)
     templateHTML = templateHTML.replaceAll("[pb_artist_name]", artist.name)
     templateHTML = templateHTML.replaceAll("[pb_artist_name_formatted]", format(artist.name))
     templateHTML = templateHTML.replaceAll("[pb_artist_desc]", artist.desc)
