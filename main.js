@@ -39,8 +39,8 @@ function format(str) {
 	return str
 }
 
-module.exports = (artists) => {
-  artists.forEach(async artist => {
+module.exports = async (artists) => {
+  await artists.awaitForEach(async artist => {
     var artistId = artist.id
     if (artistId == null) { return }
 
@@ -80,10 +80,25 @@ module.exports = (artists) => {
     ])
 
     // Write to Nekoweb //
-    await uploadFiles(`shoutout/${artistId}`, [
-      `./output/${artistId}/buttons.js`,
-      `./output/${artistId}/artist.${icon_ext}`,
-      `./output/${artistId}/index.html`,
-    ])
+    async function tryUpload() {
+      try {
+        await uploadFiles(`shoutout/${artistId}`, [
+          `./output/${artistId}/buttons.js`,
+          `./output/${artistId}/artist.${icon_ext}`,
+          `./output/${artistId}/index.html`,
+        ])
+      } catch(err) {
+        console.log(`${artistId} Upload to Nekoweb failed! `, err)
+        console.log("Retrying in 30 seconds...")
+        await (new Promise((res, rej) => {
+          setTimeout(async () => {
+            await tryUpload()
+            res()
+          }, 1000 * 30)
+        }))
+      }
+    }
+
+    await tryUpload()
   })
 }
