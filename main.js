@@ -64,7 +64,7 @@ module.exports = async (artists) => {
     }
 
     // index.html //
-    var templateHTML = await fsProm.readFile("site_template.html", "utf-8")
+    var templateHTML = await fsProm.readFile("./node_modules/planet-bluto-net-shoutout-updater/site_template.html", "utf-8")
     templateHTML = templateHTML.replaceAll("[pb_artist_id]", artistId)
     templateHTML = templateHTML.replaceAll("[pb_artist_name]", artist.name)
     templateHTML = templateHTML.replaceAll("[pb_artist_name_formatted]", format(artist.name))
